@@ -1,9 +1,11 @@
-import Home from "@/worlds/Home"
+import { Home } from "@/worlds/Home"
 
-export default function IndexPage() {
+const IndexPage = () => {
   return (
     <>
       <Home />
     </>
   )
 }
+
+export default IndexPage
